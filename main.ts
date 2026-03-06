@@ -1,0 +1,12 @@
+player.onChat("GO", function () {
+    agent.setSlot(1)
+    agent.place(FORWARD)
+    agent.setItem(STONE, 1, 1)
+    agent.move(BACK, 1)
+    agent.place(FORWARD)
+    agent.setItem(STONE, 1, 1)
+    agent.move(BACK, 1)
+    agent.setItem(STONE, 1, 1)
+    agent.place(FORWARD)
+    agent.setItem(STONE, 1, 1)
+})
